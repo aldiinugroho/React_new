@@ -5,7 +5,7 @@ class Imgforeact extends Component {
     render() {
         return (
             <div className="img_conf">
-                <img src={imgreact} alt="react"/>
+                <img draggable="false" src={imgreact} alt="react"/>
             </div>
         )
     }
